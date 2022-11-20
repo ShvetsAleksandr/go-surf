@@ -1,0 +1,1369 @@
+@media (min-width: 1900px) {
+	.title {
+		margin-left: 0;
+	}
+}
+@media (max-height: 600px){
+	.quantity-up {
+		top: 24px !important;
+    	right: 70px !important;
+	}
+	.quantity-down {
+		top: 24px !important;
+		right: 45px !important;
+	}
+	.summ {
+		font-size: 32px !important;
+	}
+	.surf {
+		padding-top: 70px;
+		&__map {
+			display: none;
+		}
+		&__bg-image {
+			display: none;
+		}
+		&__slider {
+			margin-top: 60px;
+		}
+		.slick-slide:nth-child(4n + 1) {
+			.surf-slider__item {
+				margin-top: 0;
+			}
+		}
+		
+		.slick-slide:nth-child(4n + 3) {
+			.surf-slider__item {
+				margin-top: 0;
+			}
+		}
+	}
+	.surf-slider{
+		&__item-coords {
+			font-size: 15px;
+		}
+	}
+	.menu-btn {
+		display: flex;
+	}
+	.header{
+		&__aside {
+			width: 90px;
+			background-color: rgba(#fff, 0.1);
+		}
+		&__menu {
+			transition: 0.5s;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: #181c1c;
+		}
+		&__menu.close {
+			left: -100px;
+		}
+		&__menu-list {
+			margin-top: 30px;
+			gap: 30px;
+		}
+		&__search {
+			flex: 1 0 auto;
+		}
+		&__date {
+			margin-bottom: 20px;
+		}
+	}
+	.slider-slide {
+		&__info-title {
+			font-size: 42px;
+			line-height: 48px;
+		}
+		&__info-subtext {
+			font-size: 16px;
+			line-height: 20px;
+			&::before {
+				width: 60px;
+				margin-right: 20px;
+			}
+		}
+	}
+	.slider-pagination {
+		&__row {
+			max-width: 100px;
+		}
+		.slick-slide {
+			width: 100px !important;
+			margin-right: 20px;
+		}
+		&__text {
+			font-size: 12px;
+			line-height: 14px;
+		}
+		&__number {
+			font-size: 14px;
+			line-height: 16px;
+		}
+	}
+	.subtitle {
+		font-size: 16px;
+		line-height: 20px;
+		&::before {
+			width: 60px;
+			margin-right: 20px;
+		}
+	}
+	.travel-slider {
+		&__head-image {
+			width: 100%;
+		}
+		&__about {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		&__about-info {
+			font-size: 26px;
+			line-height: 30px;
+			span {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		&__bottom-row {
+			justify-content: space-between;
+		}
+		&__airplane {
+			flex: 0 0 30%;
+		}
+		&__airline {
+			flex: 0 0 auto;
+		}
+		&__about-title {
+			font-size: 12px;
+		}
+	}
+	.sleep-slider {
+		&__head-image{
+			width: 100%;
+		}
+		&__about {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		&__about-info {
+			font-size: 26px;
+			line-height: 30px;
+			span {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		&__bottom-row{
+			justify-content: space-between;
+		}
+		&__hammock {
+			flex: 0 0 30%;
+		}
+		&__airline {
+			flex: 0 0 auto;
+		}
+		&__about-title {
+			font-size: 12px;
+		}
+	}
+	.item-product__box-text {
+		padding-left: 0;
+		max-width: 301px;
+	}
+	.surf{
+		&__info{
+			padding-bottom: 50px;
+		}
+	}
+	.travel{
+		&__cocktail {
+			display: none;
+		}
+	}
+	.sleep{
+		&__decor {
+			display: none;
+		}
+	}
+}
+@media (max-height: 400px) {
+	.slider-slide__info {
+		bottom: 50px !important;
+  }
+  .slider-pagination {
+	bottom: 15px !important;
+  }
+}
+@media (max-height: 374px) {
+	.header__map {
+		display: none !important;
+	}
+	.menu-btn {
+		top: 57px;
+    	left: 125px;
+	}
+}
+
+@media (max-width: 1500px) {
+	.surf {
+		&__map {
+			max-width: 900px;
+			margin: 0 auto;
+			width: 100%;
+			height: 475px;
+			position: relative;
+	  }
+	  &__coords {
+			top: 31%;
+			font-size: 14px;
+	  }
+	}
+	.item-point--1 {
+		left: 0;
+		top: 225px;
+	}
+	.item-point--2 {
+		left: 0px;
+		top: 185px;
+	}
+	.item-point--3 {
+		left: 25px;
+		top: 220px;
+	}
+	.item-point--4 {
+		left: -30px;
+		top: 356px;
+	}
+	.item-point--5 {
+		left: -58px;
+		top: 146px;
+	}
+	.item-point--6 {
+		left: -110px;
+		top: 405px;
+	}
+	.item-point--7 {
+		left: -65px;
+		top: 280px;
+	}
+	.item-point--8 {
+		left: 20px;
+		top: 360px;;
+	}
+	.item-product {
+		&__img {
+			flex: 0 0 75%;
+		}
+		&__extras {
+			flex: 0 0 25%;
+		}
+	}
+	.extras__list-item img {
+		width: 100px;
+		height: 100px;
+  }
+}
+@media (max-width: 1400px) {
+	.header{
+		&__aside {
+			width: 130px;
+		}
+		&__day {
+			font-size: 54px;
+		}
+		&__menu-list {
+			gap: 20px;
+		}
+		&__menu-link {
+			svg {
+				width: 49px;
+				height: 36px;
+			}
+		}
+		&__map {
+			width: 650px;
+		}
+		&__slider-pagination {
+			right: 20px;
+		}
+	}
+
+	.slider-slide{
+		&__info {
+			z-index: 25;
+			right: 50px;
+		}
+	}
+	
+	.travel-slider {
+		&__airline {
+			left: 80px;
+		}
+		&__info {
+			right: 50px;
+		}
+		&__about-info {
+			font-size: 32px;
+		}
+		&__about-title {
+			font-size: 16px;
+		}
+	}
+	.sleep-slider{
+		&__rating {
+			left: 80px;
+		}
+		&__info {
+			right: 50px;
+		}
+		&__about-info {
+			font-size: 32px;
+		}
+		&__about-title {
+			font-size: 16px;
+		}
+	}
+	.shop-slider {
+		&__item {
+			padding-left: 80px;
+			padding-right: 50px;
+		}
+	}
+
+	.slide{
+		&-arrow__next{
+			right: 50px;
+		}
+		&-arrow__prev {
+			right: 90px;
+		}
+	}
+	.surf {
+		&__info {
+			padding-right: 50px;
+		}
+		&__coords {
+			right: 50px;
+		}
+	}
+	.surf-slider {
+		&__item {
+			height: 700px;
+		}
+	}
+	.surf-slider__arrow-prev{
+		right: 90px;
+	}
+	.surf-slider__arrow-next {
+		right: 50px;
+	}
+	.travel-slider__arrow-prev{
+		right: 90px;
+	}
+	.travel-slider__arrow-next{
+		right: 50px;
+	}
+	.sleep-slider__arrow-prev{
+		right: 90px;
+	}
+	.sleep-slider__arrow-next{
+		right: 50px;
+	}
+	.shop-slider__arrow-prev{
+		right: 90px;
+	}
+	.shop-slider__arrow-next{
+		right: 50px;
+	}
+}
+
+@media (max-width: 1280px){
+	.travel {
+		padding-bottom: 50px;
+	}
+	.shop {
+		padding-bottom: 50px;
+	}
+	.sleep {
+		padding-bottom: 50px;
+	}
+	.header{
+		&__aside {
+			width: 100px;
+		}
+	}
+	.slider-slide{
+		&__info-title {
+			font-size: 70px;
+			line-height: 78px;
+			margin-bottom: 28px;
+	}
+	&__info {
+		bottom: 100px;
+	}
+}
+
+	.slider-pagination{
+		max-width: 800px;
+		right: 30px;
+		.slick-slide {
+			width: 150px !important;
+			margin-right: 20px;
+		}
+		.slick-track {
+			display: flex;
+			justify-content: flex-end;
+			
+		}
+		&__row {
+			max-width: 150px;
+			
+		}
+		&__number {
+			font-size: 18px;
+			line-height: 24px;
+			
+		}
+	}
+	.surf {
+		padding-top: 100px;
+	}
+	.travel-slider {
+		&__head {
+			height: 620px;
+		}
+	}
+	.sleep-slider {
+		&__head {
+			height: 620px;
+		}
+	}
+	.travel {
+		padding-top: 40px;
+	}
+	.shop {
+		padding-top: 40px;
+	}
+	.sleep {
+		padding-top: 40px;
+	}
+}
+@media (max-width: 1200px) {
+	.footer__button {
+		margin-top: 40px;
+  }
+	.surf {
+		&__map {
+			max-width: 700px;
+			height: 380px;
+		}
+		&__coords {
+			font-size: 11px;
+		}
+	}
+	.item-point--1 {
+		left: 0;
+		top: 175px;
+	}
+	.item-point--2 {
+		left: -18px;
+		top: 145px;
+	}
+	.item-point--3 {
+		left: 10px;
+		top: 180px;
+	}
+	.item-point--4 {
+		left: -30px;
+		top: 284px;
+	}
+	.item-point--5 {
+		left: -58px;
+		top: 120px;
+	}
+	.item-point--6 {
+		left: -70px;
+		top: 325px;
+	}
+	.item-point--7 {
+		left: -48px;
+		top: 222px;
+	}
+	.item-point--8 {
+		left: 20px;
+		top: 291px;
+	}
+	.map-slider {
+		&__item-body {
+			padding: 10px;
+		}
+	}
+	.shop-slider {
+		&__item-product {
+			display: block;
+		}
+	}
+	
+}
+
+@media (max-width: 1024px) {
+	.header {
+		&__title {
+			left: 100px;
+			font-size: 140px;
+			line-height: 140px;
+		}
+		&__scroll-bottom {
+			left: 130px;
+		}
+		&__day {
+			font-size: 48px;
+			line-height: 52px;
+			margin-bottom: 0;
+		}
+	}
+	.travel-slider {
+		&__info {
+			right: 30px;
+		}
+		&__info-city {
+			line-height: 50px;
+		}
+		&__airline-city {
+			line-height: 50px;
+		}
+		&__about {
+			margin-top: 50px;
+		}
+	}
+	.sleep-slider {
+		&__info {
+			right: 30px;
+		}
+		&__info-city {
+			line-height: 50px;
+		}
+		&__about {
+			margin-top: 50px;
+		}
+		&__rating-value {
+			line-height: 50px;
+		}
+		&__rating {
+			left: 50px;
+		}
+	}
+	.shop-slider {
+		&__item {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.travel-slider{
+		&__airline {
+			left: 50px;
+		}
+	}
+	.slider-slide{
+		&__info {
+			z-index: 25;
+			right: 30px;
+		}
+		&__info-title {
+			font-size: 54px;
+			line-height: 62px;
+			margin-bottom: 20px;
+		}
+		&__info-text {
+			font-size: 34px;
+			line-height: 60px;
+		}
+	}
+	.slider-pagination {
+		right: 10px;
+	}
+	.slide{
+		&-arrow__next{
+			right: 30px;
+		}
+		&-arrow__prev {
+			right: 70px;
+		}
+	}
+	.surf-slider__arrow-prev{
+		right: 70px;
+	}
+	.surf-slider__arrow-next {
+		right: 30px;
+	}
+	.travel-slider__arrow-prev{
+		right: 70px;
+	}
+	.travel-slider__arrow-next{
+		right: 30px;
+	}
+	.sleep-slider__arrow-prev{
+		right: 70px;
+	}
+	.sleep-slider__arrow-next{
+		right: 30px;
+	}
+	.shop-slider__arrow-prev{
+		right: 70px;
+	}
+	.shop-slider__arrow-next {
+		right: 30px;
+	}
+	.surf {
+		&__map {
+			background-image: none !important;
+			max-width: none;
+			height: 300px;
+			width: 60%;
+			margin: 0 auto;
+		}
+		&__info {
+			padding-right: 30px;
+		}
+		&__info-city {
+			line-height: 50px;
+		}
+		&__coords {
+			display: none;
+		}
+		&__slider {
+			padding-top: 0;
+			margin-top: 0;
+		}
+	}
+
+	.item-point--1,
+	.item-point--2,
+	.item-point--3,
+	.item-point--4,
+	.item-point--5,
+	.item-point--6,
+	.item-point--7,
+	.item-point--8{
+		position: static;
+		&::before {
+			display: none;
+		}
+	}
+	.map-slider{
+		&__item-body {
+			bottom: -185px;
+		}
+	}
+	.surf-slider {
+		&__item {
+			height: 650px;
+		}
+	}
+	.surf-slider__arrow-prev,
+	.surf-slider__arrow-next {
+		top: -45px;
+	}
+	.travel-slider{
+		&__head {
+			height: 500px;
+		}
+		&__button {
+			margin-top: 20px;
+		}
+	}
+	.sleep-slider {
+		&__head{
+			height: 500px;
+		}
+		&__button {
+			margin-top: 20px;
+		}
+	}
+	.travel {
+		&__cocktail {
+			bottom: 200px;
+		}
+	}
+	.sleep {
+		&__decor {
+			bottom: 350px;
+		}
+	}
+}
+@media (max-width: 985px) {
+	.extras__list {
+		gap: 30px;
+	}
+	.shop-slider {
+		&__item-inner {
+			display: block;
+		}
+		&__item-name {
+			margin-bottom: 14px;
+		}
+		&__item-price {
+			margin-bottom: 14px;
+		}
+	}
+	.item-product {
+		&__img{
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+	}
+
+}
+@media (max-width: 900px) {
+	.surf {
+		padding-top: 70px;
+	}
+	.travel {
+		padding-top: 10px;
+	}
+	.shop {
+		padding-top: 10px;
+	}
+	.sleep {
+		padding-top: 10px;
+	}
+	.title {
+		&__text {
+			font-size: 150px;
+		}
+		&__bg {
+			font-size: 52px;
+		}
+	}
+	.header {
+		&__menu-list {
+			gap: 10px;
+		}
+		&.header__day {
+			font-size: 39px;
+			line-height: 40px;
+		}
+		&__map {
+			width: 500px;
+		}
+		&__scroll-bottom {
+			display: none;
+		}
+	}
+	.slider-slide{
+		&__info-title {
+			font-size: 48px;
+			line-height: 52px;
+			margin-bottom: 10px;
+	  }
+	  &__info-text {
+		font-size: 32px;
+		line-height: 45px;
+  		}
+	}
+	.subtitle {
+			font-size: 18px;
+			line-height: 22px;
+			margin-bottom: 0;
+	}
+	.travel-slider {
+		&__airline {
+			left: 30px;
+		}
+		&__airplane {
+			height: 250px;
+		}
+	}
+	.sleep-slider {
+		&__rating {
+			left: 30px;
+		}
+		&__hammock {
+			height: 250px;
+		}
+	}
+
+}
+@media (max-width: 800px) {
+	.quantity {
+		padding-right: 30px;
+		padding-left: 0 !important;
+	}
+	.slider-slide{
+		&__info {
+			bottom: 80px;
+		}
+	}
+	.slider-pagination {
+		right: 0;
+		&__row {
+			max-width: 130px;
+		}
+		.slick-slide {
+			width: 130px !important;
+			margin-right: 30px;
+		}
+		&__text {
+			font-size: 14px;
+			line-height: 16px;
+		}
+		&__number {
+			font-size: 16px;
+			line-height: 18px;
+		}
+	}
+	.slide{
+		&-arrow__next{
+			top: 20px;
+			right: 30px;
+		}
+		&-arrow__prev {
+			top: 20px;
+			right: 70px;
+		}
+	}
+	.travel {
+		&__cocktail {
+			display: none;
+		}
+	}
+	.sleep {
+		&__decor {
+			display: none;
+		}
+	}
+	.travel-slider {
+		&__head {
+			height: 450px;
+		}
+		&__about {
+			padding-right: 100px;
+			padding-left: 100px;
+		}
+		&__about-item {
+			min-height: 0;
+		}
+		&__about-title {
+			position: static;
+			transform: rotate(0);
+			writing-mode: horizontal-tb;
+		}
+		&__about-info	{
+			padding-left: 0;
+		}
+	}
+	.sleep-slider {
+		&__head {
+			height: 450px;
+		}
+		&__about {
+			padding-right: 100px;
+			padding-left: 100px;
+		}
+		&__about-item {
+			min-height: 0;
+		}
+		&__about-title {
+			position: static;
+			transform: rotate(0);
+			writing-mode: horizontal-tb;
+		}
+		&__about-info	{
+			padding-left: 0;
+		}
+	}
+
+}
+@media (max-width:768px){
+	.quantity-up {
+		top: 24px !important;
+    	right: 70px !important;
+	}
+	.quantity-down {
+		top: 24px !important;
+		right: 45px !important;
+	}
+	.summ {
+		font-size: 32px !important;
+	}
+	.surf {
+		padding-top: 70px;
+		&__map {
+			display: none;
+		}
+		&__bg-image {
+			display: none;
+		}
+		&__slider {
+			margin-top: 60px;
+		}
+		.slick-slide:nth-child(4n + 1) {
+			.surf-slider__item {
+				margin-top: 0;
+			}
+		}
+		
+		.slick-slide:nth-child(4n + 3) {
+			.surf-slider__item {
+				margin-top: 0;
+			}
+		}
+	}
+	.surf-slider{
+		&__item-coords {
+			font-size: 15px;
+		}
+	}
+	.menu-btn {
+		display: flex;
+	}
+	.header{
+		&__aside {
+			width: 90px;
+			background-color: rgba(#fff, 0.1);
+		}
+		&__menu {
+			transition: 0.5s;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: #181c1c;
+		}
+		&__menu.close {
+			left: -100px;
+		}
+		&__menu-list {
+			margin-top: 30px;
+			gap: 30px;
+		}
+		&__search {
+			flex: 1 0 auto;
+		}
+		&__date {
+			margin-bottom: 20px;
+		}
+	}
+	.slider-slide {
+		&__info-title {
+			font-size: 42px;
+			line-height: 48px;
+		}
+		&__info-subtext {
+			font-size: 16px;
+			line-height: 20px;
+			&::before {
+				width: 60px;
+				margin-right: 20px;
+			}
+		}
+	}
+	.slider-pagination {
+		&__row {
+			max-width: 100px;
+		}
+		.slick-slide {
+			width: 100px !important;
+			margin-right: 20px;
+		}
+		&__text {
+			font-size: 12px;
+			line-height: 14px;
+		}
+		&__number {
+			font-size: 14px;
+			line-height: 16px;
+		}
+	}
+	.subtitle {
+		font-size: 16px;
+		line-height: 20px;
+		&::before {
+			width: 60px;
+			margin-right: 20px;
+		}
+	}
+	.travel-slider {
+		&__head-image {
+			width: 100%;
+		}
+		&__about {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		&__about-info {
+			font-size: 26px;
+			line-height: 30px;
+			span {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		&__bottom-row {
+			justify-content: space-between;
+		}
+		&__airplane {
+			flex: 0 0 30%;
+		}
+		&__airline {
+			flex: 0 0 auto;
+		}
+		&__about-title {
+			font-size: 12px;
+		}
+	}
+	.sleep-slider {
+		&__head-image{
+			width: 100%;
+		}
+		&__about {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		&__about-info {
+			font-size: 26px;
+			line-height: 30px;
+			span {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		&__bottom-row{
+			justify-content: space-between;
+		}
+		&__hammock {
+			flex: 0 0 30%;
+		}
+		&__airline {
+			flex: 0 0 auto;
+		}
+		&__about-title {
+			font-size: 12px;
+		}
+	}
+	.item-product__box-text {
+		padding-left: 0;
+		max-width: 301px;
+	}
+}
+@media (max-width:600px) {
+	.shop-slider {
+		&__item-name {
+			font-size: 32px;
+    		line-height: 40px;
+		}
+	}
+	.quantity-up {
+    	right: 25% !important;
+	}
+	.quantity-down {
+		right: 20% !important;
+	}
+	.title {
+		margin-left: -150px;
+	}
+	.travel-slider {
+		&__about {
+			display: block;
+			margin-top: 20px;
+		}
+		&__about-item {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		&__info-city {
+			font-size: 32px;
+			line-height: 40px;
+		}
+		&__airline-city {
+			font-size: 32px;
+			line-height: 40px;
+		}
+		&__airline-img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+	.sleep-slider {
+		&__about {
+			display: block;
+			margin-top: 20px;
+		}
+		&__about-item {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		&__info-city {
+			font-size: 32px;
+			line-height: 40px;
+		}
+		&__rating-value {
+			font-size: 32px;
+			line-height: 40px;
+		}
+	}
+}
+@media (max-width:576px) {
+	.item-product__box-text {
+		font-size: 14px;
+		line-height: 18px;
+		max-width: 220px;
+		&::before {
+			top: 17px;
+		}
+  }
+	.header {
+		&__slider-pagination {
+			display: none;
+		}
+	}
+	.travel {
+		padding-top: 70px;
+	}
+	.shop {
+		padding-top: 70px;
+	}
+	.sleep {
+		padding-top: 70px;
+	}
+	.slider-slide {
+		&__info {
+			bottom: 20px;
+		}
+	}
+	.surf-slider {
+		padding: 0 20px;
+		&__item {
+			max-width: none;
+			width: 100% !important;
+			
+		}
+	}
+}
+@media (max-width:500px){
+	.item-product__box-text {
+		font-size: 12px;
+		line-height: 16px;
+		max-width: 150px;
+		&::before {
+			top: 15px;
+		}
+  }
+	.quantity-up {
+		right: 20% !important;
+  }
+  .quantity-down {
+	  right: 15% !important;
+  }
+	.menu-btn {
+		right: 15px;
+	}
+	.header {
+		&__title {
+			font-size: 100px;
+			line-height: 85px;
+			left: 75px;
+		}
+		&__map {
+			width: 400px;
+		}
+	}
+	.slider-slide {
+		&__info {
+			right: 15px;
+		}
+	}
+	.travel-slider {
+		&__info {
+			right: 15px;
+		}
+		&__airline-city {
+			font-size: 28px;
+			line-height: 32px;
+		}
+		&__airline-img {
+			height: 32px;
+			width: 32px;
+		}
+		&__info-city {
+			font-size: 28px;
+			line-height: 32px;
+		}
+		&__airline{
+			left: 15px;
+		}
+		&__airplane {
+			flex: 0 0 50%;
+		}
+		&__airline {
+			flex: 0 0 50%;
+		}
+	}
+	.sleep-slider {
+		&__info {
+			right: 15px;
+		}
+		&__rating-value {
+			font-size: 28px;
+			line-height: 32px;
+		}
+		
+		&__info-city {
+			font-size: 28px;
+			line-height: 32px;
+		}
+		&__rating{
+			left: 15px;
+		}
+		&__hammock {
+			flex: 0 0 50%;
+		}
+		&__rating {
+			flex: 0 0 50%;
+		}
+	}
+	.shop-slider {
+		&__item {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	.slide{
+		&-arrow__next{
+			right: 15px;
+		}
+		&-arrow__prev {
+			right: 55px;
+		}
+	}
+	.surf-slider__arrow-prev{
+		right: 55px;
+	}
+	.surf-slider__arrow-next {
+		right: 15px;
+	}
+	.travel-slider__arrow-prev{
+		right: 55px;
+	}
+	.travel-slider__arrow-next{
+		right: 15px;
+	}
+	.sleep-slider__arrow-prev{
+		right: 55px;
+	}
+	.sleep-slider__arrow-next{
+		right: 15px;
+	}
+	.shop-slider__arrow-prev{
+		right: 55px;
+	}
+	.shop-slider__arrow-next {
+		right: 15px;
+	}
+	.surf {
+		&__info {
+			padding-right: 15px;
+		}
+	}
+	.surf-slider {
+		padding: 0 15px;
+	}
+}
+@media (max-width:400px) {
+	.item-product__box-1 {
+		top: 200px;
+		left: 60px;
+  }
+	.item-product__box-circle {
+		margin-right: 10px;
+	}
+	.item-product__box-text {
+		max-width: 120px;
+		&::before {
+			top: 15px;
+			width: 50px;
+		}
+  }
+	.quantity-up {
+		right: 8% !important;
+  }
+  .quantity-down {
+	  right: 1% !important;
+  }
+	.title {
+		&__text {
+			font-size: 120px;
+		}
+	}
+	
+	.header {
+		&__map {
+			width: 300px;
+		}
+		&__title {
+			font-size: 80px;
+			line-height: 70px;
+		}
+	}
+	.surf {
+		&__info-city {
+			font-size: 32px;
+			line-height: 36px;
+		}
+	}
+	.surf-slider {
+		padding: 0;
+	}
+	.slider-slide{
+		&__info-title {
+			font-size: 36px;
+			line-height: 40px;
+		}
+		&.slider-slide__info-text {
+			font-size: 24px;
+			line-height: 28px;
+		}
+	}
+	.subtitle {
+		font-size: 14px;
+			line-height: 18px;
+			&::before {
+				width: 40px;
+				margin-right: 10px;
+			}
+	}
+}
+@media (max-width:375px) {
+	.button__text {
+		font-size: 30px;
+	}
+	.button__btn {
+		padding: 12px;
+		padding-right: 50px;
+		font-size: 30px;
+		line-height: 36px;
+	}
+}
+@media (max-width:300px) {
+	.footer {
+		&__copyright {
+			font-size: 10px;
+			line-height: 12px;
+		}
+	}
+	.header {
+		&__map {
+			width: 200px;
+		}
+		&__title {
+			font-size: 70px;
+			line-height: 60px;
+		}
+	}
+}
